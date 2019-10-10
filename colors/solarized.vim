@@ -969,6 +969,15 @@ exe "hi! pandocMetadataKey"              .s:fg_blue   .s:bg_none   .s:fmt_none
 exe "hi! pandocMetadata"                 .s:fg_blue   .s:bg_none   .s:fmt_bold
 hi! link pandocMetadataTitle             pandocMetadata
 
+" ALE messages
+" ---------------------------------------------------------------------
+exe "hi! ALEError"          .s:fmt_undr   .s:fg_none   .s:bg_none    .s:sp_none
+exe "hi! ALEWarning"        .s:fmt_undr   .s:fg_none   .s:bg_none    .s:sp_none
+exe "hi! ALEInfo"           .s:fmt_undr   .s:fg_none   .s:bg_none    .s:sp_none
+exe "hi! ALEErrorSign"      .s:fmt_bold   .s:fg_red    .s:bg_base02  .s:sp_none
+exe "hi! ALEWarningSign"    .s:fmt_bold   .s:fg_red    .s:bg_base02  .s:sp_none
+exe "hi! ALEInfoSign"       .s:fmt_bold   .s:fg_red    .s:bg_base02  .s:sp_none
+
 "}}}
 " Utility autocommand "{{{
 " ---------------------------------------------------------------------
